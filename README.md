@@ -2,7 +2,7 @@
 
 This repo contains a small supervised fine-tuning workflow for `Qwen/Qwen3.5-2B`, plus benchmark scripts to compare the raw base model against the merged finetuned model.
 
-## Raw vs Merged Benchmark Comparison
+## Based vs Fne-tuned Benchmark Comparison
 
 | Benchmark | Qwen 3.5 2B | Merged SFT Model | Delta |
 |-----------|------------------|------------------|-------|
