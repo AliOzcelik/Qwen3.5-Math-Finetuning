@@ -4,7 +4,7 @@ This repo contains a small supervised fine-tuning workflow for `Qwen/Qwen3.5-2B`
 
 ## Raw vs Merged Benchmark Comparison
 
-| Benchmark | Raw Qwen 3.5 2B | Merged SFT Model | Delta |
+| Benchmark | Qwen 3.5 2B | Merged SFT Model | Delta |
 |-----------|------------------|------------------|-------|
 | GSM8K | 0.66 | 0.74 | +0.08 |
 | MATH-500 | 0.27 | 0.33 | +0.06 |
