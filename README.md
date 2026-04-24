@@ -71,6 +71,25 @@ Useful result tables:
 - raw vs merged accuracy deltas
 - pairwise example-level comparisons
 
+## Raw vs Merged Benchmark Comparison
+
+The table below summarizes the saved raw-vs-merged benchmark runs currently available in this repo.
+
+| Benchmark | Raw Qwen 3.5 2B | Merged SFT Model | Delta |
+|-----------|------------------|------------------|-------|
+| GSM8K | 0.66 | 0.74 | +0.08 |
+| MATH-500 | 0.27 | 0.33 | +0.06 |
+| Math-CoT-20k | 0.10 | 0.05 | -0.05 |
+| ARC-Challenge | 0.21 | 0.29 | +0.08 |
+| BoolQ | 0.75 | 0.74 | -0.01 |
+| CommonsenseQA | 0.21 | 0.28 | +0.07 |
+| WinoGrande | 0.52 | 0.51 | -0.01 |
+
+These values come from:
+
+- `outputs/eval_results/raw_vs_merged/raw_vs_merged_summary.csv`
+- `outputs/eval_results/reasoning_raw_vs_merged/reasoning_raw_vs_merged_summary.csv`
+
 ## Notes
 
 - Some datasets may fail to load if they are not cached locally or if Hugging Face access is unavailable.
