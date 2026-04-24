@@ -14,11 +14,14 @@ This repo contains a small supervised fine-tuning workflow for `Qwen/Qwen3.5-2B`
 | CommonsenseQA | 0.21 | 0.28 | +0.07 |
 | WinoGrande | 0.52 | 0.51 | -0.01 |
 
+## Dataset
+
+100K sample from nvidia/OpenMathReasoning
+
 ## What is in this repo
 
 - `finetune.ipynb`: dataset prep, QLoRA fine-tuning, adapter save, and merged-model export
 - `preprocess_openmath.py`: preprocessing for `nvidia/OpenMathReasoning`
-- `eval_math_benchmarks.ipynb`: notebook-based evaluation
 - `run_all_benchmarks.py`: script-based evaluation for raw vs merged comparison
 
 ## Training setup
