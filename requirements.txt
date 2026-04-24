@@ -1,0 +1,42 @@
+# Requirements for Qwen3.6-35B-A3B LoRA Fine-tuning
+# Target: ASUS Ascent GX10 (Blackwell GPU, 128GB VRAM, Linux)
+
+# PyTorch - CUDA 12.4+ for Blackwell support
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch
+torchvision
+
+# Transformers - 4.51+ required for Qwen3 models
+transformers>=4.51.0
+
+# PEFT - Parameter Efficient Fine-Tuning (LoRA)
+peft>=0.14.0
+
+# TRL - Transformer Reinforcement Learning (SFTTrainer)
+trl>=0.12.0
+
+# Datasets - HuggingFace datasets library
+datasets>=3.0.0
+
+# Accelerate - Distributed training and mixed precision
+accelerate>=1.2.0
+
+# Flash Attention 2 - Memory efficient attention (Blackwell compatible)
+#flash-attn>=2.7.0
+
+# Safetensors - Fast model loading/saving
+safetensors>=0.4.0
+
+# Tokenizers - Fast tokenization
+tokenizers>=0.21.0
+
+# Utility libraries
+tqdm>=4.66.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Optional: Logging and monitoring
+# wandb>=0.18.0
+
+# Optional: BitsAndBytes (not needed for 16-bit, but useful if quantization needed later)
+# bitsandbytes>=0.45.0
