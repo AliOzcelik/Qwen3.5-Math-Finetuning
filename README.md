@@ -8,6 +8,7 @@ This repo contains a small supervised fine-tuning workflow for `Qwen/Qwen3.5-2B`
 |-----------|------------------|------------------|-------|
 | GSM8K | 0.66 | 0.74 | +0.08 |
 | MATH-500 | 0.27 | 0.33 | +0.06 |
+|	mmlu_math	| 0.46 | 0.39	| 0.07 |
 | Math-CoT-20k | 0.10 | 0.05 | -0.05 |
 | ARC-Challenge | 0.21 | 0.29 | +0.08 |
 | BoolQ | 0.75 | 0.74 | -0.01 |
